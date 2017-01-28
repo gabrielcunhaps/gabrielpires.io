@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Gabriel Pires</title>
+	<link rel="stylesheet" type="text/css" href="bombom.css">
+	<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/w3images/mac.jpg");
+    min-height: 100%;
+}
+.w3-navbar li a {
+    padding: 16px;
+    float: left;
+}
+#trigger {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+#more {
+    transition: ease-out .7s;
+    overflow: hidden;
+}
+#more p:first-child {
+    margin-top: 0;
+}
+#more.closed {
+    height: 0;
+    -webkit-transform: translateY(-600px);
+    transform: translateY(-600px);
+}
+#more.open {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    max-height: 600px;
+}
+#more + p {
+    margin-top: 0;
+</style>
+</head>
+<body>
+<div id="interface">
+	<header id="cabecalho">
+		<img src="logo.png" id="logo">
+		
+			
+	</header>
+	
+<!-- Slide Show -->
+<section style="max-width:100%">
+  <img class="mySlides" src="http://www.keypersonofinfluence.com/wp/wp-content/uploads/2016/01/entrevo-keypersonofinfluence-business-speaker.jpg"
+  style="width:100%" >
+  <img class="mySlides" src="dimdim.jpg"
+  style="width:100%" >
+  <img class="mySlides" src="codedd.jpg"
+  style="width:100%" > 
+</section>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+</script>
+
+	
+	<section id="corpo">
+	<article class="front">
+<h1>About Gabriel Pires</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut hendrerit magna, quis ultricies libero. Mauris facilisis accumsan velit a porta. Aliquam ipsum nulla, cursus ac orci tincidunt, rhoncus fringilla mauris. Aenean sodales mollis ultricies. Quisque et sapien est. Cras et rutrum urna, eu porta quam. Vestibulum bibendum massa et porta tincidunt. Cras sed pretium dui. Nullam eu aliquam ante.<br/>
+
+Quisque suscipit mi et nibh efficitur, pharetra lobortis arcu malesuada. Pellentesque dapibus risus mauris, varius fermentum lectus vehicula eu. Nulla dapibus in magna a interdum. Donec id enim purus. Etiam a justo at nunc iaculis aliquam. Vivamus lacinia urna ut gravida cursus. Aliquam accumsan consectetur quam finibus aliquet. Integer a iaculis arcu. Ut ac ante vel turpis tempus imperdiet.<br/></p>
+	</article>
+	<article class="front">
+<h1>Portfolio</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut hendrerit magna, quis ultricies libero. Mauris facilisis accumsan velit a porta. Aliquam ipsum nulla, cursus ac orci tincidunt, rhoncus fringilla mauris. Aenean sodales mollis ultricies. Quisque et sapien est. Cras et rutrum urna, eu porta quam. Vestibulum bibendum massa et porta tincidunt. Cras sed pretium dui. Nullam eu aliquam ante.
+
+Quisque suscipit mi et nibh efficitur, pharetra lobortis arcu malesuada. Pellentesque dapibus risus mauris, varius fermentum lectus vehicula eu. Nulla dapibus in magna a interdum. Donec id enim purus. Etiam a justo at nunc iaculis aliquam. Vivamus lacinia urna ut gravida cursus. Aliquam accumsan consectetur quam finibus aliquet. Integer a iaculis arcu. Ut ac ante vel turpis tempus imperdiet.</p>
+	</article>
+</section>
+<aside id="lateral">
+<h2 class="front">Send e-mail to Gabriel Pires:</h2>
+
+<form action="mailto:gabrielcunhaps@hotmail.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name"><br>
+E-mail:<br>
+<input type="text" name="mail"><br>
+Comment:<br>
+<textarea name="message" rows="20" cols="40"></textarea><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+
+
+
+</aside>
+
+
+<footer id="fim">
+<p style="text-align:center">Copyright &copy; 2017 - by Gabriel Pires<br/>
+	<a href=#">Facebook</a>|<a href="#">Twitter</a>|<a href="#">Instagram</a>|<a href="#">LinkedIn</a></p>
+</footer>
+
+</div>
+</body>

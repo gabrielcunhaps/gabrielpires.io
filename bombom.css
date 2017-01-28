@@ -1,0 +1,182 @@
+body {
+	background-color: #dddddd;
+	color: rgba(0,0,0,1);
+}
+
+div#interface {
+	width: 900px;
+	background-color: #ffffff;
+	margin: -20px auto 10px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 10px;
+}
+
+p{
+  text-align:justify;
+  text-indent: 50px;
+	}
+	
+  header#cabecalho {
+	  border-bottom: 1px #606060 solid;
+	  height: 80px;
+	 
+  }
+  
+	
+/*Formatação do Menu
+    nav#menu {
+		display: block;
+		
+	}
+	
+	nav#menu ul {
+		list-style: none;
+		text-transform: uppercase;
+		position: absolute;
+		top: 0px;
+		left: 729px;
+	}
+	
+	nav#menu li {
+		display: inline-block;
+		background-color: #dddddd;
+		padding: 10px;
+		margin: 0px;
+		-webkit-transition: background-color 1s;
+		-moz-transition: background-color 1s;
+	    -ms-transition: background-color 1s;
+		-o-transition: background-color 1s;
+		transition: background-color 1s;
+	}
+	
+	nav#menu li:hover {
+		background-color: #606060;
+	}
+	
+	nav#menu a {
+		color: #000000;
+		text-decoration: none;
+	}
+	
+	nav#menu a:hover {
+		color: #ffffff;
+	}
+	
+	nav#menu h1 {
+		display: none;
+	}
+	
+	img#logo {
+		width:45%;
+		
+	}
+/*IMAGE SLIDER*/	
+/*@keyframes slider {
+	0% {
+		left:0;
+	}
+	
+	20% {
+		left:0;
+	}
+	
+	25% {
+		left: -100%;
+	}
+	
+	45% {
+		left: -100%;
+	}
+	
+	50% {
+		left: -200%;
+	}
+	
+	70% {
+		left: -200%;
+	}
+	
+	75% {
+		left: -300%;
+	}
+	
+	95% {
+		left: -400%;
+	}
+	
+	100% {
+		left: -400%;
+	}
+}*/
+
+#slider {
+	overflow: hidden;
+}
+
+#slider figure img{
+	width: 20%;
+	float: left;
+	height:450px
+}
+
+
+
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 40s slider infinite;
+	} 
+
+/*ME*/
+a {
+	text-decoration: none;
+	display: inline-block;
+	
+}
+
+section#corpo {
+	display: block;
+	width: 500px;
+	float: left;
+	border-right: 1px solid #606060;
+	padding-right: 15px;
+}
+
+aside#lateral {
+	display:block;
+	width: 350px;
+	float: right;
+}
+	
+.front h1, h2 {
+	color: #606060;
+	background-color: #dddddd;
+	padding: 5px 0px 5px 10px;
+	margin: 10px 0px;
+}
+
+footer#fim {
+		clear: both;
+		border-top: 1px solid #606060
+} 
+
+aside#lateral h2 {
+	color: #606060;
+	background-color: #dddddd;
+	padding: 5px 0px 5px 10px;
+	margin: 10px 0px;
+}
+	
+img#logo {
+	width: 40%;
+	margin-left: 10px;
+}
+	
+	
+	
+	
+	
